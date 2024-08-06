@@ -150,7 +150,7 @@ data "aws_security_group" "selected" {
     }
 
     tags = {
-      "Name" = "MyEKS"
+      "Name" = "EKS1"
     }
 
     depends_on = [
